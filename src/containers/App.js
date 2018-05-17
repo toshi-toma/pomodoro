@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Timer from '../components/Timer'
+import Button from '../components/Button'
 
 const App = () => (
   <div className="containers">
@@ -10,7 +11,9 @@ const App = () => (
     <div className="timer-container">
       <Timer />
     </div>
-    <div className="menu-container" />
+    <div className="menu-container">
+      <Button />
+    </div>
   </div>
 )
 

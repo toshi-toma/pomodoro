@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const defaultTimer = '25:00'
+const defaultTimer = '25:00';
 
-const Timer = () => <h2>{defaultTimer}</h2>
+const Timer = () => <h2>{defaultTimer}</h2>;
 
-export default Timer
+export default Timer;

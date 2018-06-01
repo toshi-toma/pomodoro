@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const defaultText = 'Start'
+const defaultText = 'Start';
 
-const Button = () => <button>{defaultText}</button>
+const Button = () => <button>{defaultText}</button>;
 
-export default Button
+export default Button;

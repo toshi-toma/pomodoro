@@ -1,7 +1,7 @@
-import React from 'react'
-import Sidebar from '../components/Sidebar'
-import Timer from '../components/Timer'
-import Button from '../components/Button'
+import React from 'react';
+import Sidebar from '../components/Sidebar';
+import Timer from '../components/Timer';
+import Button from '../components/Button';
 
 const App = () => (
   <div className="containers">
@@ -15,6 +15,6 @@ const App = () => (
       <Button />
     </div>
   </div>
-)
+);
 
-export default App
+export default App;

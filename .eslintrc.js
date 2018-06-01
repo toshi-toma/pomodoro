@@ -14,7 +14,7 @@ module.exports = {
   plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
   globals: {},
   rules: {
-    'semi': ['error', 'never'],
+    'semi': ['error', 'always'],
     'quotes': ['error', 'single'],
     'comma-dangle': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx'] }],
@@ -22,7 +22,7 @@ module.exports = {
       'error',
       {
         'singleQuote': true,
-        'semi': false
+        'semi': true
       }
     ]
   }

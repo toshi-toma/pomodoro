@@ -2,6 +2,10 @@ import React from 'react';
 
 const defaultText = 'Start';
 
-const Button = () => <button>{defaultText}</button>;
+const handleClick = () => {
+  console.log('handleClick');
+};
+
+const Button = () => <button onClick={handleClick}>{defaultText}</button>;
 
 export default Button;
